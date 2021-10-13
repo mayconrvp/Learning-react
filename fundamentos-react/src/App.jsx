@@ -1,17 +1,39 @@
 import "./App.css";
 import React from "react";
 
-import Primeiro from "./components/basicos/Primeiro";
-import ComParametro from "./components/basicos/ComParametro";
-import Fragmento from "./components/basicos/Fragmento";
-import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card"
+
+import TabelaProdutos from "./components/repeticao/TabelaProdutos"
+import ListaAlunos from "./components/repeticao/ListaAlunos"
+import Familia from "./components/basicos/Familia"
+import FamiliaMembro from "./components/basicos/FamiliaMembro"
+import Aleatorio from "./components/basicos/Aleatorio";
+import Fragmento from "./components/basicos/Fragmento";
+import ComParametro from "./components/basicos/ComParametro";
+import Primeiro from "./components/basicos/Primeiro";
 
 export default () => (
     <div className="App">
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+
+            <Card titulo="#07 - Desafio Repetição">
+                <TabelaProdutos></TabelaProdutos>
+            </Card>
+
+            <Card titulo="#06 - Repetição" color="#5E412F">
+                <ListaAlunos></ListaAlunos>
+            </Card>
+
+            <Card titulo="#05 - Componente com Filhos" color="#FA6900">
+                <Familia sobrenome="Silva">
+                    <FamiliaMembro nome="Pedro "></FamiliaMembro>
+                    <FamiliaMembro nome="Ana "></FamiliaMembro>
+                    <FamiliaMembro nome="Gustavo "></FamiliaMembro>
+
+                </Familia>
+            </Card>
 
             <Card titulo="#04 - Desafio Aleatório" color="#E94C6F">
                 <Aleatorio
@@ -24,10 +46,10 @@ export default () => (
                 <Fragmento />
             </Card>
 
-            <Card titulo="#02 - Com Parâmetro" color="#251e3e">
+            <Card titulo="#02 - Com Parâmetro" color="#a32a23">
                 <ComParametro
                     titulo="Situação do Aluno"
-                    aluno="Pedro"
+                    aluno="Lucas"
                     nota={9.3} />
             </Card>
 

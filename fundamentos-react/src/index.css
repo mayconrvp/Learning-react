@@ -1,9 +1,10 @@
 body{   
-    font-family: Oswald;
-    background-color: #222;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(24, 44, 56);
     color: #fff;
     text-align: center;
     font-size: 1.4rem;
+    font-weight: 300;
 }
 
 h1, h2, h3{
