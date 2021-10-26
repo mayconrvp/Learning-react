@@ -1,4 +1,4 @@
-export default [
+const produtos = [
     {id: 1, nome:"Mouse", preco:"65.00"},
     {id: 2, nome:"Teclado sem fio", preco:"120.00"},
     {id: 3, nome:"Cadeira Gamer", preco:"800.00"},
@@ -8,3 +8,5 @@ export default [
     {id: 7, nome:"Forno Elétrico", preco:"1500.00"}
 
 ]
+
+export default produtos;
