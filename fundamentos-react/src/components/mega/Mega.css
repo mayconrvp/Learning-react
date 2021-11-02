@@ -1,0 +1,15 @@
+.mega label {
+  font-size: 1.4rem;
+  width: 50px;
+}
+
+.mega input {
+  font-size: 1.4rem;
+  width: 50px;
+  display: inline-flex;
+}
+
+.mega button {
+  height: 40px;
+  width: 100px;
+}
