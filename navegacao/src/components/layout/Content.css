@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  flex: 1;
+  background-color: #ddd;
+  padding: 30px;
+}
+
+.content p {
+  font-size: 20px;
+}
